@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JavaScript exercise</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+      <div class="topbar">
+        <img id="logo" src="./images3.png" alt="icon image" width="120px">
+        <nav class="navbar">
+            <a href="#">All TOPICS</a>
+            <a href="#">MY ACCOUNT</a>
+            <a href="#">ABOUT US</a>
+            <a href="#">FAQ</a>
+            <a href="#">CONTACT US</a>
+        </nav>
+        
+      </div>
+  
+     <h1>Experiment on JavaScripts Built-in functions</h1>
+    
+  </header>
+
+<main>
+  <div style="background-color: coral; padding: 20px 15px;">
+    
+  
+  <!--alert box -->
+
+<h2 style="color: whitesmoke">JavaScript Alert</h2>
+
+<button onclick="myFunction()">click button</button>
+
+
+    <!--confirm box -->
+  
+<h2 style="color: darkblue">JavaScript Confirm Box</h2>
+
+
+<button onclick="meFunction()">click button</button>
+
+<p id="demo"></p>
+
+
+  
+  <!--prompt box -->
+  
+<h2>JavaScript Prompt</h2>
+
+<button onclick="miFunction()">click button</button>
+
+<p id="test"></p>
+
+</div>
+
+<div style="margin: 25px 25px;">
+  
+ 
+  
+    <!-- console log() an object to the console-->
+    <h2 style="color: darkred;"> console.log example, using this code: {var myObj = { firstname: "John", lastname: "Doe" };
+    console.log(myObj);} <br>click to see console logged as alert </h2>
+    <button onclick="mtFunction()">see console.log</button>
+    <br>
+    <h2 style="color: darkred;"> console.assert() function using this code: {console.assert(document.getElementById("rema"), "You have no element with ID 'rema'");}</h2>
+    <p>click to see the console.assert output.</p>
+    <button onclick="mrFunction()">see console.alert</button>
+    <br>
+</div>
+<h2 style="margin: 25px 25px;">setTimeout function example</h2>
+<button onclick="setTimeout(moFunction, 1500)">click here</button>
+
+
+<h2 style="margin: 25px 25px;">cleartimeout function example</h2>
+<p> Click "test it". Wait 2 seconds. The page will alert "Hello".
+
+Click "Stop" to prevent the first function to execute.
+
+(You must click "Stop" before the 2 seconds are up.) </p>
+<button onclick="myVar = setTimeout(muFunction, 2000)">Test it</button>
+
+<button onclick="clearTimeout(myVar)">Stop it</button>
+
+
+<div style="background-color: coral; padding: 20px 15px;">
+        <h2 style="margin: 25px 25px;">setTimeinterval and clearTimeinterval function example combined</h2>
+        <p>setTimeinterval function starts this clock on this page: <br>
+        while the clearTimeinterval button stops it.
+        </p>
+
+        <p id="timer"></p>
+
+        <button onclick="clearInterval(myVar)">Stop time</button>
+
+
+
+
+        <h2 style="margin: 25px 25px;">window.open() and window.close() functions</h2>
+        <p>Click the button (mywindow) to open a new window called "sampleWindow" with some text.</p>
+
+        <button onclick="mxFunction()">Open "myWindow"</button>
+        <button onclick="closeWin()">Close "myWindow"</button>
+
+
+        <h3 style="margin: 25px 25px;">window.location function</h3>
+
+        <p id="loctn"></p>
+
+
+
+        <h3>window.location function to get</h3>
+
+        <p id="hostname"></p>
+
+</div>
+
+<h2 style="margin: 25px 25px;">window.history.forward function</h2>
+<p>the "window.history" function works only if there are previously/subsequently visited site.</p>
+
+<input type="button" value="Forward" onclick="goForward()">
+
+
+<input type="button" value="Back" onclick="goBack()">
+
+
+  
+</main>
+
+
+
+<script src="index.js" type="text/JavaScript">
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: georgia, Arial, Helvetica, sans-serif;
+}
+
+header{
+background-color: "orange";
+}
+header topbar{
+  display: flex;
+  align-items: center;
+  justify-content: center
+  
+}
+header topbar nav a{
+  list-style-type: none;
+  list-style: none;
+  color: darkblue;
+  
+}
+
+
+header h1 {
+  font-size: 60px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+main{
+  
+}
+
+button {
+    font-weight: bold;
+    font-size: 16px;
+}
+
